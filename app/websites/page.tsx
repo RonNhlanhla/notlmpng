@@ -26,8 +26,8 @@ export default function WebsitePage() {
 
           <p>We build for growth. Whether you’re scaling, pivoting, or refining—our platforms grow with you.</p>
 
-      <div className="sm:w-full md:w-2/3 flex flex-col items-center justify-center">
-      <Accordion type="single" collapsible className="w-full">
+      <div className="w-full flex flex-col items-center">
+      <Accordion type="single" collapsible className="w-full max-w-3xl">
         {not.map((item) => (
           <AccordionItem value={item.trigger}>
             <AccordionTrigger>{item.trigger}</AccordionTrigger>
